@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@layer base {
+  @font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/cairo/v15/2sD8b3c4a5k6f7g8h9i0j1k2l3m4n5o6.woff2') format('woff2');
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 98%;
@@ -1554,4 +1565,9 @@ html {
 .custom-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: #b3c6e0 #f1f1f1;
+}
+
+
+ body, p, h1, h2, h3, h4, label, button, input, span {
+  font-family: 'Cairo', sans-serif;
 }

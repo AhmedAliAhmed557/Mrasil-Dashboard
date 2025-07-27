@@ -20,7 +20,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-cairo)"],
+        sans: ['Cairo', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
